@@ -45,7 +45,8 @@ convereter = (function() {
                     init : {
                         id: 'leftValue',
                         type: 'number',
-                        className: 'inputCurrencyNumberLeft'
+                        className: 'inputCurrencyNumberLeft',
+                        componentClassName: 'inputCurrencyNumber'
                     },
                     map: function(model){
                         return {
@@ -85,7 +86,8 @@ convereter = (function() {
                     init : {
                         id: 'rightValue',
                         type: 'number',
-                        className: 'inputCurrencyNumberRight'
+                        className: 'inputCurrencyNumberRight',
+                        componentClassName: 'inputCurrencyNumber'
                     },
                     map: function(model){
                         return {

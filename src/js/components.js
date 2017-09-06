@@ -59,6 +59,7 @@ function componentInput(name, options) {
             label: null,
             type: 'text',
             className: 'inputText',
+            componentClassName: '',
             defaultValue: 1,
         },
         events = options && options.events;
