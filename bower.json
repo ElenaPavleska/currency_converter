@@ -1,0 +1,12 @@
+{
+  "name": "currency_converter",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "neat": "^1.8.0",
+    "terrific": "~2.1.0",
+    "nouislider": "^8.5.1",
+    "topojson": "^1.6.27"
+  }
+}

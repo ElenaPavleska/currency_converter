@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/converter.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="js/currencies.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/converter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        $( document ).ready(function() {
+
+           application.template.include([
+                'componentInput',
+                'componentSelectbox',
+                'componentButton'
+           ]);
+
+            convereter.init($('#converterContainer'));
+        });
+    </script>
+
+</head>
+<body>
+    <header>
+        <h1 class="title">CURRENCY CONVERTER</h1>
+    </header>
+    <section>
+        <div id="converterContainer"> </div>
+    </section>
+</body>
+</html>

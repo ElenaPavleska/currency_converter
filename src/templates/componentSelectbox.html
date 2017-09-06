@@ -1,0 +1,9 @@
+<script type="text/x-handlebars-template" id="componentSelectbox">
+    <select class="selectbox {{ componentClass }}" name = "{{ name }}" id="{{ id }}">
+        {{#each options }}
+        <option value="{{ this }}">
+            {{this}}
+        </option>
+        {{/each}}
+    </select>
+</script>
